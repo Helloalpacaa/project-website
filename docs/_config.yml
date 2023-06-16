@@ -20,9 +20,7 @@
 
 title: Breast Cancer Detection (Group 5)
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  An ML model for breast cancer detection and classification, done as part of CS 7641 Machine Learning (Summer 2023).
 baseurl: "/project-website" # the subpath of your site, e.g. /blog
 url: "https://cs7641-group-5-summer-2023.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
