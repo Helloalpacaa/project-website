@@ -24,6 +24,33 @@ j) fractal dimension ("coastline approximation" - 1)
 
 
 # Methods
+We will use various models to solve this problem, including supervised learning and unsupervised learning. These are our candidate models.
+
+Unsupervised Learning:
+K-Nearest Neighbors (KNN): KNN is a type of instance-based learning which provides useful predictions in medical diagnosis problems. Even though KNN can be used for supervised learning tasks, we will use it in an unsupervised context as a clustering algorithm.
+https://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html#sklearn.cluster.KMeans
+
+Supervised Learning:
+Support Vector Machines (SVMs): SVMs are powerful models that can find an optimal hyperplane that separates different classes in a high-dimensional space. They can handle both linearly separable and non-linear cases using kernel functions.
+https://scikit-learn.org/stable/modules/generated/sklearn.svm.LinearSVC.html
+
+Decision Trees and Random Forests:
+A decision tree is a supervised learning algorithm used for classification and regression. It learns a series of explicit if-then rules on feature values to predict a target value. Random forests aggregate the predictions of many decision trees.
+https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html#sklearn.ensemble.RandomForestClassifier
+
+Neural Networks: 
+Neural Networks (NNs) are algorithms used in supervised learning for tasks like classification and regression. They consist of interconnected layers of nodes or "neurons" that process input data and learn to make accurate predictions.
+https://scikit-learn.org/stable/modules/generated/sklearn.neural_network.MLPClassifier.html#sklearn.neural_network.MLPClassifier
+
+Convolutional Neural Networks:
+Convolutional Neural Networks (CNNs) are a special type of Neural Network designed to process grid-like data such as images. They utilize convolutional layers, which automatically and adaptively learn spatial hierarchies of features. CNNs have been more efficient in tasks such as image classification and object detection.
+
+https://www.tensorflow.org/tutorials/images/cnn
+
+Logistic Regression:
+It is a simple and fast model, often used in binary classification problems. Despite its simplicity, it can perform well when the relationship between the features and the target variable is approximately linear.
+https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html#sklearn.linear_model.LogisticRegression
+
 
 # Potential Results and Discussion
 
