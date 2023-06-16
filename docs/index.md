@@ -1,4 +1,5 @@
 ---
+title: Breast Cancer Detection (Group 5)
 layout: default
 ---
 # Introduction
